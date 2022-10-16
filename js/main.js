@@ -5,9 +5,9 @@ var elRUBL =  document.querySelector("#rub");
 var elEURO =  document.querySelector("#euro");
 var elHeading = document.querySelector(".h1-value");
 var elSelect = document.querySelector("#elSelect");
-var kursD = 1111293;
-var kursE = 1081899;
-var kursR = 17619;
+var kursD = 11.140;
+var kursE = 10.813;
+var kursR = 177.81;
 elForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
   if (elSelect.value === "USD") {
