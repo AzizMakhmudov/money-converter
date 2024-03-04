@@ -1,13 +1,13 @@
-var elForm =  document.querySelector("#form");
-var elInput = document.querySelector(".input-text");
-var elUSD =   document.querySelector("#dollar");
-var elRUBL =  document.querySelector("#rub");
-var elEURO =  document.querySelector("#euro");
-var elHeading = document.querySelector(".h1-value");
-var elSelect = document.querySelector("#elSelect");
-var kursD = 0.000080;
-var kursE = 0.000074;
-var kursR = 0.0073;
+let elForm =  document.querySelector("#form");
+let elInput = document.querySelector(".input-text");
+let elUSD =   document.querySelector("#dollar");
+let elRUBL =  document.querySelector("#rub");
+let elEURO =  document.querySelector("#euro");
+let elHeading = document.querySelector(".h1-value");
+let elSelect = document.querySelector("#elSelect");
+let kursD = 0.000080;
+let kursE = 0.000074;
+let kursR = 0.0073;
 elForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
   if (elSelect.value === "USD") {
